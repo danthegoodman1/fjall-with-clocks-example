@@ -1,0 +1,10 @@
+[package]
+name = "fjall-custom-time"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+fjall = "2.11.1"
+
+[patch.crates-io]
+lsm-tree = { path = "vendor/lsm-tree" }
